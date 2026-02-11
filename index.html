@@ -1,40 +1,113 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
-
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mark's PD Portfolio</title>
-    </head>
-    <body>
-        <h1>Mark's PD Portfolio</h1>
-        <h2>I'm a Game Developer</h2>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <section class="hero">
+            <h1>Mark Auman</h1>
+            <img src="assets/images/MarkAuman.png" alt="Profile Picture of Mark Auman" height="200px">
+            
+            <h2>Summary</h2>
+            <p>I am a game and software developer experienced with Unity, Unreal and Web development.</p>
+            <hr>
+            </h2>
+        </section>
 
-        <hr>
-        
-        <a href="./public/movie-ranking.html"><h3>Movie Ranking Project</h3></a>
-        <img src="assets/images/movie-ranking.png" alt="Movie Ranking Preview" height="200px">
-        
-        <a href="./public/birthday-invite.html"><h3>Birthday Invite Project</h3></a>
-        <img src="assets/images/birthday-invite.png" alt="Birthday Invite Preview" height="200px">
-        
-        <hr>
+        <section class="Education">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <h3>Bachelor Of Games & Interactive Environments</h3>
+                    <h4>Queensland University of Technology</h4>
+                    <h5>2020 - 2024</h5>
+                    <ul>
+                        <li>GPA of 7.0 on a 7-point grading scale</li>
+                        <li>Received QUT Executive Dean’s Commendation for Academic Excellence in 2023 and 2024</li>
+                        <li>Awarded place on the Dean's List in Semester 1, 2020</li>
+                        <li>QUT Scholarship of Excellence Recipient</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
 
-        <a href="./public/about.html">About Me</a> <a href="./public/contact.html">Contact Me</a>
-    </body>
+        <section class="Work Experience">
+            <h2>Work Experience</h2>
+            <ul>
+                <li>
+                    <h3>Junior Software Developer</h3>
+                    <h4>MAXART</h4>
+                    <h5>January 2025 - Present</h5>
+                    <ul>
+                        <li>Working as a junior software developer on client-based projects</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Project Manager</h3>
+                    <h4>Queensland University of Technology</h4>
+                    <h5>July 2024 - January 2025</h5>
+                    <ul>
+                        <li>Worked as a project manager for the QUT Eco Explorations VR Project</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Research Assistant & VR Developer</h3>
+                    <h4>Queensland University of Technology</h4>
+                    <h5>July 2023 - January 2025</h5>
+                    <ul>
+                        <li>Developed the 3DGDV system for the QUT ARC Mars VR Project for the Faculty Of Science</li>
+                        <li>Developed a data annotation recording application in Unity for use in a PhD study for the Faculty of Engineering </li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Mobile Developer</h3>
+                    <h4>Awesome Women In Construction</h4>
+                    <h5>January 2023 - 2025</h5>
+                    <ul>
+                        <li>Worked as an independent contractor on a mobile port for my university industry project ‘AWIC: Breaking Ground’</li>
+                    </ul>
+                </li>
+            </ul>
+            <hr>
+        </section>
+            
+        <section class="Skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>C#</li>
+                <li>Unity</li>
+                <li>Unreal Engine</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Maya</li>
+                <li>Substance 3D Painter</li>
+                <li>Blender</li>
+                <li>ZBrush</li>
+            </ul>
+            <hr>
+        </section>
+
+        <section class="Awards">
+            <h2>Awards</h2>
+            <ul>
+                <li>Awarded QUT University Medal</li>
+            </ul>
+            <hr>
+        </section>
+
+        <section class="Other">
+            <ul>
+                <li><a href="./contactinfo.html">Contact Me</a></li>
+                <li><a href="aumarka.com">My Actual Portfolio</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Mark Auman. All rights reserved.</p>
+    </footer>
+</body>
 </html>
